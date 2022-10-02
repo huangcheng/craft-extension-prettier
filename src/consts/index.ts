@@ -1,0 +1,47 @@
+import type { BuiltInParserName } from 'prettier';
+import { OptionFields } from '../components/option';
+
+export const parsers: BuiltInParserName[] = [
+  'angular',
+  'babel-flow',
+  'babel-ts',
+  'babel',
+  'css',
+  'espree',
+  'flow',
+  'glimmer',
+  'graphql',
+  'html',
+  'json-stringify',
+  'json',
+  'json5',
+  'less',
+  'lwc',
+  'markdown',
+  'mdx',
+  'meriyah',
+  'scss',
+  'typescript',
+  'vue',
+  'yaml',
+];
+
+export const defaultOptions: OptionFields = {
+  parser: 'babel',
+  printWidth: 80,
+  tabWidth: 2,
+  useTabs: false,
+  embeddedLanguageFormatting: 'auto',
+  singleQuote: true,
+  bracketSpacing: true,
+  proseWrap: 'always',
+  semi: true,
+  jsxSingleQuote: false,
+  quoteProps: 'as-needed',
+  arrowParens: 'always',
+  trailingComma: 'es5',
+  htmlWhitespaceSensitivity: 'css',
+  vueIndentScriptAndStyle: false,
+  insertPragma: false,
+  requirePragma: false,
+};

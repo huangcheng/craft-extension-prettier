@@ -1,0 +1,10 @@
+{
+  "id": "im.cheng.craft.prettier",
+  "name": "Prettier",
+  "fileName": "craft-extension-prettier",
+  "author" : "Cheng Huang",
+  "author-email" : "cheng@airmail.im",
+  "description" : "Formatting Code Blocks Using Prettier",
+  "api": "0.0.4",
+  "main": "index.html"
+}
